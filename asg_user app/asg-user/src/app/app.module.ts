@@ -12,14 +12,16 @@ import { HeaderComponent } from './header/header.component';
 import {UserComponent} from './user/user.component';
 import { FooterComponent } from './footer/footer.component';
 import {HttpClientModule} from '@angular/common/http'
-import {UserService} from './service/user.service'
+import {UserService} from './service/user.service';
+import { PractComponent } from './pract/pract.component'
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
     HeaderComponent,
     UserComponent,
-    FooterComponent
+    FooterComponent,
+    PractComponent
   ],
   imports: [
     BrowserModule,
