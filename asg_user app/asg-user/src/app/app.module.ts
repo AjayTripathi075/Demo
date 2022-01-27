@@ -13,7 +13,8 @@ import {UserComponent} from './user/user.component';
 import { FooterComponent } from './footer/footer.component';
 import {HttpClientModule} from '@angular/common/http'
 import {UserService} from './service/user.service';
-import { PractComponent } from './pract/pract.component'
+import { PractComponent } from './pract/pract.component';
+import { AppaaComponent } from './appaa/appaa.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { PractComponent } from './pract/pract.component'
     HeaderComponent,
     UserComponent,
     FooterComponent,
-    PractComponent
+    PractComponent,
+    AppaaComponent
   ],
   imports: [
     BrowserModule,
