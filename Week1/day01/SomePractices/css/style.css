@@ -1,0 +1,42 @@
+#hd1
+{
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  padding: 5px;
+}
+#nv1{
+  background-color:rgb(71, 151, 255);
+  color: white;
+  padding: 5px;
+}
+#anc1
+{
+  color:white;
+  text-decoration: none;
+  padding: 7px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+
+}
+#anc1:hover{
+  background-color: brown;
+  color: white;
+}
+#ft1
+{
+background-color: tomato;
+color: white;
+text-align: center;
+font-size:20px;
+}
+
+#art1
+{
+  color: cadetblue;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+}
+
